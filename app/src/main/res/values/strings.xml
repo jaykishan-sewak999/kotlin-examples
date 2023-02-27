@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">KotlinExamples</string>
+    <string name="high_order_function">High Order function</string>
+    <string name="passing_lambda_expression_as_parameter">Passing lambda expression as parameter</string>
+    <string name="passing_lambda_expression_as_parameter_unit">Lambda expression which return Unit</string>
+    <string name="passing_lambda_expression_as_parameter_type">Lambda expression which return any of the value integer,string etc</string>
+    <string name="passing_function_expression_as_parameter">Passing function as a parameter to Higher-Order function</string>
+    <string name="passing_function_expression_as_parameter_unit">Function which return Unit</string>
+    <string name="passing_function_expression_as_parameter_type">Function which return any of the value integer, string etc.</string>
+</resources>
