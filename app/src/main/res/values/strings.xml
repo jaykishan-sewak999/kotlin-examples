@@ -8,4 +8,6 @@
     <string name="passing_function_expression_as_parameter_unit">Function which return Unit</string>
     <string name="passing_function_expression_as_parameter_type">Function which return any of the value integer, string etc.</string>
     <string name="high_order_function_title">High Order function - This examples contains below scenarios for High order functions please refer activity code once for better understanding</string>
+    <string name="co_routine_title">CoRoutine - This example contains simple Coroutine fuctions uing launch and async(This does not contain MVVM)</string>
+    <string name="call">Launch CoRoutine</string>
 </resources>
