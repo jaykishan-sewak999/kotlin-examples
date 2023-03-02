@@ -23,6 +23,8 @@ class HighOrderFunctionActivity : AppCompatActivity() {
         //Passing lambda as parameter with Unit return type
         highOrderFunctionPassingFunctionAsParameter("This is high order function with function as parameter",::printHelloFunction)
 
+        //Passing function as parameter
+        //Passing lambda as parameter with Int return type
         highOrderFunctionPassingFunctionAsParameterWithReturnVal(::sumOfTwoNumber)
     }
 

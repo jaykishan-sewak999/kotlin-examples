@@ -8,12 +8,13 @@
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tv_title"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
         android:textSize="18sp"
-        android:text="@string/high_order_function"
+        android:text="@string/high_order_function_title"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         android:textColorHighlight="@color/black"
         android:textStyle="bold"
         app:layout_constraintTop_toTopOf="parent" />
@@ -38,22 +39,24 @@
         app:layout_constraintStart_toStartOf="@id/tv_pass_lambda"/>
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tv_return_type"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
         android:text="@string/passing_lambda_expression_as_parameter_type"
         app:layout_constraintTop_toBottomOf="@id/tv_return_unit"
-        app:layout_constraintStart_toStartOf="@id/tv_pass_lambda"/>
+        app:layout_constraintStart_toStartOf="@id/tv_pass_lambda"
+        app:layout_constraintEnd_toEndOf="parent"/>
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tv_pass_function"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
         android:textSize="16sp"
         android:textColor="#666666"
         android:text="@string/passing_function_expression_as_parameter"
         app:layout_constraintTop_toBottomOf="@id/tv_return_type"
-        app:layout_constraintStart_toStartOf="@id/tv_title"/>
+        app:layout_constraintStart_toStartOf="@id/tv_title"
+        app:layout_constraintEnd_toEndOf="parent"/>
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tv_function_return_unit"
         android:layout_width="wrap_content"
