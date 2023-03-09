@@ -15,5 +15,9 @@ class MainActivity : AppCompatActivity() {
         binding?.btnHighOrderFunction?.setOnClickListener {
             startActivity(Intent(this@MainActivity,HighOrderFunctionActivity::class.java))
         }
+
+        binding?.btnCoRoutine?.setOnClickListener {
+            startActivity(Intent(this@MainActivity,CoroutinExampleActivity::class.java))
+        }
     }
 }

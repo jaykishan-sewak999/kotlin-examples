@@ -15,5 +15,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_co_routine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_coroutine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_high_order_function" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
