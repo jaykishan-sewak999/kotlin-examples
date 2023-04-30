@@ -4,14 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#D1CECE"
     tools:context=".HighOrderFunctionActivity">
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tv_title"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_margin="15dp"
-        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
         android:text="@string/co_routine_title"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,23 +26,65 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:text="@string/call"
+        android:textColor="@color/white"
+        android:background="#9C27B0"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tv_title" />
 
-
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/tv_output"
+        android:id="@+id/tv_title_launch"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_margin="15dp"
+        android:layout_margin="10dp"
         android:textSize="18sp"
+        android:text="@string/using_launch"
+        android:textColor="#9C27B0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:textColorHighlight="@color/black"
+        android:gravity="center"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/btn_call_co_routine" />
 
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_launch_op"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/tv_title_launch" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_title_async"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        android:textColor="#9C27B0"
+        android:text="@string/using_async"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColorHighlight="@color/black"
+        android:gravity="center"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/tv_launch_op" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_async_op"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColorHighlight="@color/black"
+        android:gravity="center"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/tv_title_async" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
