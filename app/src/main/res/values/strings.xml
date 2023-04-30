@@ -11,4 +11,6 @@
     <string name="co_routine_title">CoRoutine - This example contains simple Coroutine fuctions uing launch and async(This does not contain MVVM)</string>
     <string name="call">Launch CoRoutine</string>
     <string name="title_coroutine">CoRoutine</string>
+    <string name="using_launch">Using Launch</string>
+    <string name="using_async">Using Async\n</string>
 </resources>
