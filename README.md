@@ -1,4 +1,4 @@
-# Android Template(boilerplate)
+# Android Examples
 
 This repository contains a examples of different android features described below.
 <ul>
