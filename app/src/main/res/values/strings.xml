@@ -13,4 +13,6 @@
     <string name="title_coroutine">CoRoutine</string>
     <string name="using_launch">Using Launch</string>
     <string name="using_async">Using Async\n</string>
+    <string name="title_scope_function">Scope function</string>
+    <string name="scope_function_desc">This example contains usage of below Scope functions.\nPlease check activity for code \n\n 1. let \n 2.Apply \n 3.Run \n 4. With \n  5. Also</string>
 </resources>

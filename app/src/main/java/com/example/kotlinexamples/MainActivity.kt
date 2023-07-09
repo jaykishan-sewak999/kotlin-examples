@@ -19,5 +19,9 @@ class MainActivity : AppCompatActivity() {
         binding?.btnCoRoutine?.setOnClickListener {
             startActivity(Intent(this@MainActivity,CoroutinExampleActivity::class.java))
         }
+
+        binding?.btnScopeFunction?.setOnClickListener {
+            startActivity(Intent(this@MainActivity,ScopeFunctionActivity::class.java))
+        }
     }
 }
