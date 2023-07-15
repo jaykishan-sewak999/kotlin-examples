@@ -15,4 +15,11 @@
     <string name="using_async">Using Async\n</string>
     <string name="title_scope_function">Scope function</string>
     <string name="scope_function_desc">This example contains usage of below Scope functions.\nPlease check activity for code \n\n 1. let \n 2.Apply \n 3.Run \n 4. With \n  5. Also</string>
+    <string name="extension_function_title">Extension functions - This example will cover below scenarios</string>
+    <string name="extension_functions">Extending the String class to reverse the string:    \n
+    Extending the List class to find the average of its elements: \n
+    Extending the Int class to convert a number to a Roman numeral representation: \n
+    Extending the MutableList class to shuffle its elements:\n
+    Extending the Double class to round a number to a specified number of decimal places:</string>
+
 </resources>
