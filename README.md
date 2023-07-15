@@ -6,6 +6,8 @@ This repository contains a examples of different android features described belo
     <img src= https://github.com/jaykishan-sewak999/kotlin-examples/blob/main/app/src/main/assets/highorder-function.png height=450 width=250>
   <li>Coroutine - Async vs Launch</li>
     <img src=https://github.com/jaykishan-sewak999/kotlin-examples/blob/main/app/src/main/assets/coroutine.png height=450 width=250>
+   <li>Scope functions</li>
+   <li>Extension functions</li>
 </ul>
 ## Kotlin Coroutines Examples for Android Development: 
 
