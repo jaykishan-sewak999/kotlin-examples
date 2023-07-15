@@ -23,5 +23,9 @@ class MainActivity : AppCompatActivity() {
         binding?.btnScopeFunction?.setOnClickListener {
             startActivity(Intent(this@MainActivity,ScopeFunctionActivity::class.java))
         }
+
+        binding?.btnExtensionFunction?.setOnClickListener {
+            startActivity(Intent(this@MainActivity,ExtensionFunctionActivity::class.java))
+        }
     }
 }
