@@ -29,6 +29,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".ScopeFunctionActivity" />
+        <activity android:name=".ExtensionFunctionActivity" />
     </application>
 
 </manifest>
