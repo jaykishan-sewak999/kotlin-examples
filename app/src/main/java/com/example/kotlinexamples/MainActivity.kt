@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.kotlinexamples.databinding.ActivityMainBinding
+import com.example.kotlinexamples.flow.FlowExampleActivity
 
 class MainActivity : AppCompatActivity() {
     private var binding: ActivityMainBinding? = null
@@ -26,6 +27,10 @@ class MainActivity : AppCompatActivity() {
 
         binding?.btnExtensionFunction?.setOnClickListener {
             startActivity(Intent(this@MainActivity,ExtensionFunctionActivity::class.java))
+        }
+
+        binding?.btnFlowExample?.setOnClickListener {
+            startActivity(Intent(this@MainActivity,FlowExampleActivity::class.java))
         }
     }
 }

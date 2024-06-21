@@ -41,4 +41,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btn_scope_function" />
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_flow_example"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Flow example"
+        app:layout_constraintTop_toBottomOf="@id/btn_extension_function"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
