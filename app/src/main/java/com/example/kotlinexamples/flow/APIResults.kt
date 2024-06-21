@@ -21,5 +21,6 @@ data class APIResults<out T>(val status: Status, val data: T?, val message: Stri
 enum class Status {
     LOADING,
     ERROR,
-    SUCCESS
+    SUCCESS,
+    NONE
 }

@@ -4,6 +4,8 @@ plugins {
 }
 
 android {
+    namespace 'com.example.kotlinexamples'
+
     compileSdk 34
 
     defaultConfig {

@@ -9,10 +9,9 @@ import kotlinx.coroutines.launch
 class FlowViewModel : ViewModel() {
     private val commentRepository = CommentRepository(APIConfig.ApiService())
 
-    val apiResults = MutableStateFlow(APIResults(Status.LOADING, Comment(), ""))
+    val apiResults = MutableStateFlow(APIResults(Status.NONE, Comment(), ""))
     fun getComments(id: Int){
         viewModelScope.launch {
-
             apiResults.value = APIResults.loading()
             commentRepository.getComments(id).catch {
                 apiResults.value = APIResults.error(it.message)
