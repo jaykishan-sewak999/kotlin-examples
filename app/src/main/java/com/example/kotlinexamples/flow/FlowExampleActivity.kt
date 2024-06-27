@@ -54,6 +54,9 @@ class FlowExampleActivity : AppCompatActivity() {
                         binding.progressBar.isVisible = false
                         Toast.makeText(this@FlowExampleActivity, "${it.message}", Toast.LENGTH_SHORT).show()
                     }
+                    Status.NONE -> {
+
+                    }
                 }
             }
         }

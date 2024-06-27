@@ -15,7 +15,6 @@ data class APIResults<out T>(val status: Status, val data: T?, val message: Stri
             return APIResults(Status.LOADING, null, null)
         }
     }
-
 }
 
 enum class Status {
